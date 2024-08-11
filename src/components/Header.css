@@ -1,0 +1,97 @@
+/* General Header Styles */
+header {
+    background-color: #1a1a1d;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap; /* Prevents wrapping of navigation items */
+}
+
+/* Navigation Item Styles */
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+/* Navigation Link Styles */
+nav ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+/* Hover State for Navigation Links */
+nav ul li a:hover {
+    color: #f8b400;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) { /* Tablets and smaller desktops */
+    header {
+        padding: 0.75rem; /* Adjust padding for smaller screens */
+    }
+    
+    nav ul {
+        flex-direction: row; /* Ensure horizontal alignment */
+        justify-content: center; /* Center align the items */
+    }
+    
+    nav ul li {
+        margin: 0 1rem; /* Adjust margin for smaller screens */
+    }
+    
+    nav ul li a {
+        font-size: 1rem; /* Smaller font size for tablets */
+    }
+}
+
+@media (max-width: 768px) { /* Mobile devices */
+    header {
+        padding: 0.75rem; /* Maintain padding for mobile */
+    }
+    
+    nav ul {
+        flex-direction: row; /* Ensure horizontal alignment */
+        justify-content: center; /* Center align the items */
+    }
+    
+    nav ul li {
+        margin: 0 0.75rem; /* Adjust margin for mobile layout */
+    }
+    
+    nav ul li a {
+        font-size: 0.9rem; /* Smaller font size for mobile */
+    }
+}
+
+@media (max-width: 480px) { /* Very small screens (phones in portrait mode) */
+    header {
+        padding: 0.5rem; /* Further reduced padding */
+    }
+    
+    nav ul {
+        flex-direction: row; /* Ensure horizontal alignment */
+        justify-content: center; /* Center align the items */
+    }
+    
+    nav ul li {
+        margin: 0 0.5rem; /* Further reduced margin */
+    }
+    
+    nav ul li a {
+        font-size: 0.8rem; /* Even smaller font size for very small screens */
+    }
+}
