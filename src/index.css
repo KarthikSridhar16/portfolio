@@ -1,11 +1,11 @@
-/* Reset some default browser styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Set up basic styling for the body */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,13 +13,13 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Container to center align the content */
+
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
-/* Basic styling for headers */
+
 h1, h2, h3 {
     margin-bottom: 0.5rem;
     color: #333;
@@ -37,7 +37,7 @@ h3 {
     font-size: 1.5rem;
 }
 
-/* Styling for links */
+
 a {
     color: #007bff;
     text-decoration: none;
@@ -47,7 +47,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Header styling */
+
 header {
     background-color: #333;
     color: #fff;
@@ -106,7 +106,7 @@ section {
     margin: 1rem;
 }
 
-/* Footer styling */
+
 footer {
     background-color: #333;
     color: #fff;
