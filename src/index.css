@@ -69,14 +69,14 @@ header nav ul li a {
     font-weight: bold;
 }
 
-/* Section styling */
+
 section {
     padding: 2rem 0;
     background-color: #fff;
     margin-bottom: 1rem;
 }
 
-/* Project list styling */
+
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +89,7 @@ section {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: calc(50% - 1rem); /* Adjust width for responsive design */
+    width: calc(50% - 1rem); 
     margin-bottom: 1rem;
 }
 
@@ -114,10 +114,10 @@ footer {
     padding: 1rem 0;
 }
 
-/* Responsive design adjustments */
+
 @media (max-width: 768px) {
     .project-item {
-        width: 100%; /* Full width on smaller screens */
+        width: 100%; 
     }
 }
 html {

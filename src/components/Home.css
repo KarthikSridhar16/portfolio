@@ -9,19 +9,19 @@
     color: #fff;
     text-align: center;
     padding-top: 4rem;
-    position: relative; /* For button positioning */
-    overflow: hidden; /* Prevents overflow of content */
+    position: relative; 
+    overflow: hidden; 
 }
 
 /* Profile Image Container */
 .profile-image-container {
-    width: 200px; /* Adjusted size to accommodate large image */
-    height: 200px; /* Adjusted size to accommodate large image */
+    width: 200px; 
+    height: 200px; 
     overflow: hidden;
     border-radius: 50%;
-    margin-bottom: 2rem; /* Space between the image and the welcome text */
+    margin-bottom: 2rem; 
     animation: popUp 1s ease-in-out;
-    border: 10px solid #000; /* Black border around the image */
+    border: 10px solid #000; 
 }
 
 /* Profile Image */
@@ -61,7 +61,7 @@
 
 .scroll-down-button:hover {
     background-color: #f8b400;
-    transform: scale(1.05); /* Slight zoom effect */
+    transform: scale(1.05); 
 }
 
 /* Keyframe Animations */
@@ -81,65 +81,65 @@
 }
 
 /* Media Queries for Responsive Design */
-@media (max-width: 1024px) { /* Tablets and smaller desktops */
+@media (max-width: 1024px) { 
     .profile-image-container {
-        width: 150px; /* Adjust size for tablets */
+        width: 150px; 
         height: 150px;
     }
     
     #home h1 {
-        font-size: 2.5rem; /* Adjust font size for tablets */
+        font-size: 2.5rem; 
     }
     
     #home p {
-        font-size: 1.25rem; /* Adjust font size for tablets */
-        max-width: 500px; /* Adjust max width for tablets */
+        font-size: 1.25rem; 
+        max-width: 500px; 
     }
     
     .scroll-down-button {
         padding: 0.5rem 1rem;
-        font-size: 0.9rem; /* Adjust font size for tablets */
+        font-size: 0.9rem; 
     }
 }
 
-@media (max-width: 768px) { /* Mobile devices */
+@media (max-width: 768px) { 
     .profile-image-container {
-        width: 120px; /* Adjust size for mobile */
+        width: 120px; 
         height: 120px;
     }
     
     #home h1 {
-        font-size: 2rem; /* Adjust font size for mobile */
+        font-size: 2rem; 
     }
     
     #home p {
-        font-size: 1rem; /* Adjust font size for mobile */
-        max-width: 400px; /* Adjust max width for mobile */
+        font-size: 1rem; 
+        max-width: 400px; 
     }
     
     .scroll-down-button {
         padding: 0.5rem 0.75rem;
-        font-size: 0.8rem; /* Adjust font size for mobile */
+        font-size: 0.8rem; 
     }
 }
 
-@media (max-width: 480px) { /* Very small screens (phones in portrait mode) */
+@media (max-width: 480px) { 
     .profile-image-container {
-        width: 100px; /* Adjust size for very small screens */
+        width: 100px; 
         height: 100px;
     }
     
     #home h1 {
-        font-size: 1.5rem; /* Further adjust font size */
+        font-size: 1.5rem; 
     }
     
     #home p {
-        font-size: 0.9rem; /* Further adjust font size */
-        max-width: 300px; /* Further adjust max width */
+        font-size: 0.9rem; 
+        max-width: 300px; 
     }
     
     .scroll-down-button {
         padding: 0.4rem 0.6rem;
-        font-size: 0.7rem; /* Further adjust font size */
+        font-size: 0.7rem; 
     }
 }

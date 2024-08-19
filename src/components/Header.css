@@ -16,7 +16,7 @@ nav ul {
     justify-content: center;
     margin: 0;
     padding: 0;
-    flex-wrap: nowrap; /* Prevents wrapping of navigation items */
+    flex-wrap: nowrap; 
 }
 
 /* Navigation Item Styles */
@@ -38,60 +38,60 @@ nav ul li a:hover {
     color: #f8b400;
 }
 
-/* Media Queries for Responsive Design */
-@media (max-width: 1024px) { /* Tablets and smaller desktops */
+
+@media (max-width: 1024px) { 
     header {
-        padding: 0.75rem; /* Adjust padding for smaller screens */
+        padding: 0.75rem; 
     }
     
     nav ul {
-        flex-direction: row; /* Ensure horizontal alignment */
-        justify-content: center; /* Center align the items */
+        flex-direction: row; 
+        justify-content: center; 
     }
     
     nav ul li {
-        margin: 0 1rem; /* Adjust margin for smaller screens */
+        margin: 0 1rem; 
     }
     
     nav ul li a {
-        font-size: 1rem; /* Smaller font size for tablets */
+        font-size: 1rem; 
     }
 }
 
-@media (max-width: 768px) { /* Mobile devices */
+@media (max-width: 768px) { 
     header {
-        padding: 0.75rem; /* Maintain padding for mobile */
+        padding: 0.75rem; 
     }
     
     nav ul {
-        flex-direction: row; /* Ensure horizontal alignment */
-        justify-content: center; /* Center align the items */
+        flex-direction: row; 
+        justify-content: center; 
     }
     
     nav ul li {
-        margin: 0 0.75rem; /* Adjust margin for mobile layout */
+        margin: 0 0.75rem; 
     }
     
     nav ul li a {
-        font-size: 0.9rem; /* Smaller font size for mobile */
+        font-size: 0.9rem; 
     }
 }
 
-@media (max-width: 480px) { /* Very small screens (phones in portrait mode) */
+@media (max-width: 480px) { 
     header {
-        padding: 0.5rem; /* Further reduced padding */
+        padding: 0.5rem; 
     }
     
     nav ul {
-        flex-direction: row; /* Ensure horizontal alignment */
-        justify-content: center; /* Center align the items */
+        flex-direction: row; 
+        justify-content: center; 
     }
     
     nav ul li {
-        margin: 0 0.5rem; /* Further reduced margin */
+        margin: 0 0.5rem; 
     }
     
     nav ul li a {
-        font-size: 0.8rem; /* Even smaller font size for very small screens */
+        font-size: 0.8rem; 
     }
 }

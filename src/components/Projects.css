@@ -34,48 +34,48 @@
     transform: translateY(-10px);
 }
 
-/* Image Styles within Project Items */
+
 .project-item img {
     max-width: 100%;
     border-radius: 10px;
     margin-bottom: 1rem;
 }
 
-/* Media Queries for Responsive Design */
-@media (max-width: 1024px) { /* Tablets and smaller desktops */
+
+@media (max-width: 1024px) { 
     #projects {
-        padding: 4rem 1.5rem; /* Adjust padding for tablets */
+        padding: 4rem 1.5rem;
     }
     
     #projects h2 {
-        font-size: 2rem; /* Adjust font size for tablets */
+        font-size: 2rem; 
     }
 }
 
-@media (max-width: 768px) { /* Mobile devices */
+@media (max-width: 768px) { 
     #projects {
-        padding: 3rem 1rem; /* Adjust padding for mobile */
+        padding: 3rem 1rem; 
     }
     
     #projects h2 {
-        font-size: 1.75rem; /* Adjust font size for mobile */
+        font-size: 1.75rem; 
     }
     
     .project-list {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust grid columns for mobile */
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     }
 }
 
-@media (max-width: 480px) { /* Very small screens (phones in portrait mode) */
+@media (max-width: 480px) { 
     #projects {
-        padding: 2rem 0.5rem; /* Further adjust padding for very small screens */
+        padding: 2rem 0.5rem; 
     }
     
     #projects h2 {
-        font-size: 1.5rem; /* Further adjust font size */
+        font-size: 1.5rem; 
     }
     
     .project-list {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Further adjust grid columns */
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     }
 }

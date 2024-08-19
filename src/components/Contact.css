@@ -26,3 +26,18 @@
 #contact a:hover {
     color: #f8b400;
 }
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: white; 
+}

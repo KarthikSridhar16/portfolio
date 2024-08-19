@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
-import ExperienceEducation from './components/ExperienceEducation'; // Import the ExperienceEducation component
+import ExperienceEducation from './components/ExperienceEducation'; 
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -16,7 +16,7 @@ const App = () => (
         <About />
         <Projects />
         <section id="experience-education">
-            <ExperienceEducation /> {/* Add the ExperienceEducation component */}
+            <ExperienceEducation />
         </section>
         <Contact />
         <Footer />
