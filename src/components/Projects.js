@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Projects.css';
 
-// Import images
+
 import portfolioImage from '../assets/images/portfolio.jpg';
 import oilImage from '../assets/images/oil.jpeg';
 import uiuxImage from '../assets/images/uiux.png';
@@ -31,14 +31,14 @@ const Projects = () => {
         },
     ]);
 
-    // Animation delay state
+  
     const [animationClass, setAnimationClass] = useState('');
 
     useEffect(() => {
-        // Set a delay for the animation class
+       
         const timer = setTimeout(() => {
             setAnimationClass('fade-in');
-        }, 100); // Adjust delay as needed
+        }, 100); 
 
         return () => clearTimeout(timer);
     }, []);
