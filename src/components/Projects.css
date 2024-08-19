@@ -1,18 +1,18 @@
-/* Projects Section Styles */
+
 #projects {
     padding: 5rem 2rem;
     background-color: #fff;
     text-align: center;
 }
 
-/* Section Heading Styles */
+
 #projects h2 {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 2rem;
 }
 
-/* Project List Container */
+
 .project-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -20,7 +20,6 @@
     padding: 2rem 0;
 }
 
-/* Project Item Styles */
 .project-list .project-item {
     background: linear-gradient(135deg, #f8b400, #ff6348);
     padding: 1rem;
@@ -29,7 +28,7 @@
     transition: transform 0.3s ease;
 }
 
-/* Hover Effect for Project Items */
+
 .project-list .project-item:hover {
     transform: translateY(-10px);
 }
