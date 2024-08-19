@@ -1,4 +1,4 @@
-/* Container for Experience and Education Sections */
+
 .experience-education-container {
     position: relative;
     max-width: 1200px;
@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-/* Section Links (Buttons) */
+
 .section-links {
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@
     transform: scale(1.05);
 }
 
-/* Modal Overlay (for Pop-up Effect) */
+
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -48,7 +48,7 @@
     z-index: 1000;
 }
 
-/* Modal Content Styles */
+
 .modal-content {
     background: #fff;
     padding: 2rem;
@@ -59,8 +59,8 @@
     position: relative;
     transition: transform 0.3s ease;
     transform: scale(0.95);
-    overflow-y: auto; /* Enable vertical scrolling */
-    max-height: 80vh; /* Limit height to viewport height */
+    overflow-y: auto;
+    max-height: 80vh; 
 }
 
 .modal-content.show {
@@ -96,7 +96,7 @@
     color: #666;
 }
 
-/* Close Button Styles */
+
 .close-button {
     position: absolute;
     top: 10px;
@@ -111,7 +111,7 @@
     color: #ff6348;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 1024px) {
     .link {
         font-size: 1.3rem;
