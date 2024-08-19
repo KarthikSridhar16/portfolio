@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Home.css';
 
-// Import the image
+
 import profileImage from '../assets/images/profile.jpg';
 
 const Home = () => {
