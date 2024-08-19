@@ -1,4 +1,4 @@
-/* About Section Styles */
+
 #about {
     padding: 5rem 2rem;
     background-color: #f5f5f5;
@@ -6,7 +6,7 @@
     position: relative;
 }
 
-/* About Content Container */
+
 .about-content {
     max-width: 800px;
     margin: 0 auto;
@@ -14,7 +14,7 @@
     padding: 0 1rem; 
 }
 
-/* Section Heading Styles */
+
 #about h2 {
     font-size: 2.5rem;
     color: #333;
@@ -22,7 +22,7 @@
     animation: slideIn 1s ease-in-out;
 }
 
-/* Section Paragraph Styles */
+
 #about p {
     font-size: 1.2rem;
     line-height: 1.8;
@@ -30,14 +30,14 @@
     animation: fadeInUp 1s ease-in-out;
 }
 
-/* Title Class Styles */
+
 .title {
     font-weight: bold;
     font-size: 1.5rem;
     color: #ff6348;
 }
 
-/* Keyframe Animations */
+
 @keyframes slideIn {
     from { opacity: 0; transform: translateY(-20px); }
     to { opacity: 1; transform: translateY(0); }
